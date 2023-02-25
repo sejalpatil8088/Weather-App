@@ -1,0 +1,101 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background : url("./weatherapp.png") ;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* designing the weather app container */
+.container {
+  width: 600px; 
+  
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px;
+  /* background-color: rgb(21, 21, 24); */
+  color: white;
+  border-radius: 50px;
+}
+.container h1{
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* designing the search area */
+.searchData {
+  border: 1px solid white;
+}
+
+.searchData input {
+  border: transparent;
+  padding: 5px;
+}
+
+.searchData button {
+  border: transparent;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+/* designing the city weather data */
+.cityWeatherData {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+button{
+  background-color: black;
+  color: white;
+  padding: 4px;
+}
+.searchData{
+  border: none;
+}
+#inputBox{
+    border-radius: 5px;
+    padding:  10px 20px;
+    border: none;
+    color: black;
+    margin-right: 10px;
+}
+.searchbtn{
+  border-radius: 20px;
+  margin: 10px;
+  padding: 50px;
+  font-size: x-large;
+
+}
+.searchbtn:hover{
+  background-color: blue;
+  color: white;
+}
